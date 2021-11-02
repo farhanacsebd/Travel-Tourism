@@ -16,16 +16,25 @@ const MyOrders = () => {
 
 
     const handleDelete = id => {
-        const url = `https://immense-depths-46109.herokuapp.com/users/${id}`;
-        fetch(url, {
-            method: 'DELETE'
-        })
-            .then(res => {
 
-                alert('Deleted successfully');
-
-
+        const proceed = window.confirm('Are you sure,You waht to delete?')
+        if (proceed) {
+            const url = `https://immense-depths-46109.herokuapp.com/users/${id}`;
+            fetch(url, {
+                method: 'DELETE'
             })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.deletedCount > 0) {
+                        alert('deleted successfully')
+                        const remainingUsers = users.filter(user => user._id !== id);
+                        setUsers(remainingUsers)
+
+                    }
+                })
+        }
+
+
     }
     return (
         <div id="users">

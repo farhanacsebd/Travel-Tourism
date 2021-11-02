@@ -28,7 +28,7 @@ const Details = () => {
             .then(res => {
                 // console.log(res);
                 if (res.data.insertedId) {
-                    alert('added successfully');
+                    alert('Are you like to added this product?');
                     reset();
                 }
             })
