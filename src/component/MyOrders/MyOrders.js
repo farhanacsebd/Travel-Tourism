@@ -17,7 +17,7 @@ const MyOrders = () => {
 
     const handleDelete = id => {
 
-        const proceed = window.confirm('Are you sure,You waht to delete?')
+        const proceed = window.confirm('Are you sure,You want to delete?')
         if (proceed) {
             const url = `https://immense-depths-46109.herokuapp.com/users/${id}`;
             fetch(url, {
