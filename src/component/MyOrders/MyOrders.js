@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
+import useAuth from '../../Hooks/useAuth';
 
 const MyOrders = () => {
-
+    const { user } = useAuth()
+    console.log(user);
     const [users, setUsers] = useState([])
     useEffect(() => {
         fetch('https://immense-depths-46109.herokuapp.com/users')
             .then(res => res.json())
             .then(data => {
-                const value = data.filter(db => db.email === 'farhana.cse.bd@gmail.com')
+                const value = data.filter(db => db.email === user.email)
                 setUsers(value);
             });
 

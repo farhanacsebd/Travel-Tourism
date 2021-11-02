@@ -5,6 +5,7 @@ import Covid from '../Banner/Covi';
 import Stuff from '../Stuff/Stuff';
 import Branch from './Branch/Branch';
 import Doctors from './Doctors/Doctors';
+import TravelServices from './TravelServices/TravelServices';
 
 const Home = () => {
 
@@ -13,10 +14,9 @@ const Home = () => {
             <Banner />
             <Covid></Covid>
             <Branch />
-            <Doctors />
+            <TravelServices />
             <Accordion></Accordion>
             <Stuff></Stuff>
-
         </div>
     );
 };
