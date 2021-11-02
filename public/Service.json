@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "UROLOGY DEPARTMENT",
+        "description": "The Department of Urology at Bangladesh Specialized Hospital is dedicated to providing state-of-the-art medical and surgical care for all specialties of male and female urology (both adult and pediatric), as well as male infertility problems. Each year, our highly experienced urologists treat hundreds of patients, providing expert diagnosis, care and surgeries for complete range of urological conditions.We offer patients confidential evaluation, treatment and follow-up care with state-of –the-art resources, like ultra-modern operation theatres (OT), Lithotripsy unit pediatric urology, Reconstructive urology, uro-oncology as well as modern diagnostic facilities like urodynamic studies. The department has become a national referral surgical center.",
+        "img": "https://i.ibb.co/z2VYWSt/urologist-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "ENDOCRINOLOGY",
+        "description": "This Department is established to improve the quality of life for people with diabetes and other endocrinology disorders. For diabetes patients, we help reduce complications and sufferings and contribute to the ultimate prevention and cure. For patients with other endocrinology disorders, including nodules in the endocrine system, we offer specialty care and individualized treatment plans that focus on the patient’s needs.The Bangladesh Specialized Hospital (BSH) also provides tailored diabetes education to patients of all ages and is one of the finest facility for comprehensive and continuous diabetes care and management in Dhaka. Many investigations in the field of endocrinology and diabetes has been by our lab like, 24 hours urinary free cortisol, midnight salivary cortisol TSH receptor antibody (TRab) and so on. We are also a research facility consistently researching and applying the newest findings in the field of diabetes management and care.",
+        "img": "https://i.ibb.co/QFtJZPQ/Panther-Media-906049.jpg"
+    },
+    {
+        "id": 3,
+        "name": "CARDIAC SURGERY",
+        "description": "Founded in mid-2016, the Cardiac surgery department of Bangladesh Specialized Hospital boasts a strong team, the members of which are veterans in their fields who have gained considerable professional experience in cardiac surgery, cardiac anaesthesia and ICU care, both inland and abroad. The infrastructure has two state of the art Cardiac Surgical Operating Theatres and a dedicated Cardiac ICU with 8 individually monitored beds. The ICU staff nurse to patient ratio is 1:1 during all shifts. For renal failure patients requiring heart surgery we have the facility to perform hemodialysis (i.e. CRRT, SLED) in our Cardiac ICU.Since its founding the department has done over 100 cardiac surgeries with excellent results. Spectrum comprises of coronary artery bypass grafting, valve replacement and congenital heart surgery.",
+        "img": "https://i.ibb.co/D8z7wxf/surgury.jpg"
+    },
+    {
+        "id": 4,
+        "name": "ENT, HEAD & NECK",
+        "description": "ENT Department of Bangladesh Specialized Hospital offers comprehensive treatment for a wide range of patients who need surgical or conservative treatments for the nasal passages, sinuses, ears, mouth, pharynx, throat, and head-neck regions. The department houses state-of-the-art technology and is backed by experienced ENT Consultants, doctors, nurses and technologists.All related problems are shown to the patients on TV monitors and are discussed in detail with them before rendering any surgical treatment. This helps patients to understand their problems better and in decision making. The department deals with all ENT related problems and emergency situations to provide full coverage of services.",
+        "img": "https://i.ibb.co/Wgh4R6k/ENT2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "NEUROSURGERY",
+        "description": "Neurosurgery is the surgical specialty concerned with diagnosis, treatment and rehabilitation of patients with disorders that affect the nervous system, including the brain, spinal column, spinal cord, peripheral nerves, and extra-cranial cerebrovascular system. These disorders may be due to a birth defect, traumatic injury, cancer or other reasons.Neurosurgery is the surgical specialty concerned with diagnosis, treatment and rehabilitation of patients with disorders that affect the nervous system, including the brain, spinal column, spinal cord, peripheral nerves, and extra-cranial cerebrovascular system. These disorders may be due to a birth defect, traumatic injury, cancer or other reasons.Department of Neurosurgery of Bangladesh Specialized Hospital employs a multidisciplinary approach to providing comprehensive neurosurgical services, utilizing state-of-the-art equipment’s and facilities. Our team consists of expert neurosurgeons, neuro nurses and technicians. We also have skilled doctors from other departments for support with Neurosurgery subspecialties. The department has already performed over six hundred highly demanding, successful neurosurgeries since 2016.",
+        "img": "https://i.ibb.co/TtWDMh1/Neurosurgery.jpg"
+    },
+    {
+        "id": 6,
+        "name": "NEUROLOGY DEPARTMENT",
+        "description": "The Department of Neuro Medicine at the BSHL is dedicated to exceptional patient care center is fortunate to have state-of-the-art facilities for evaluating patients with neurological diseases, performing the latest clinical and basic science investigations.Our regional and national referral base and the capacity of our hospitals and new outpatient space ensure that our trainees, faculty, staff and patients have the best possible experience.",
+        "img": "https://i.ibb.co/6Y5SXDQ/brain.jpg"
+    }
+]

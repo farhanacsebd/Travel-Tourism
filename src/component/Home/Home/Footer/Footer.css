@@ -1,0 +1,12 @@
+.footerGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 7px;
+    text-align: start;
+}
+
+
+
+.bg-custom {
+    background: black;
+}

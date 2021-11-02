@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Dr Lima Islam",
+        "expertize": "PEDIATRIC & NEONATOLOGY",
+        "email": "lima123@gmail.com",
+        "img": "https://i.ibb.co/yRKMPJX/dr-Pragnya-Chigurupati.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dr gury",
+        "email": "dotguiralu@gmail.com",
+        "expertize": "PEDIATRIC & NEONATOLOGY",
+        "img": "https://i.ibb.co/YcX5Vgk/ds.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dr Pitter Jack",
+        "expertize": "UROLOGY DEPARTMENT",
+        "email": "Pitter_123@gmail.com",
+        "img": "https://i.ibb.co/mRCMvqK/dt3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dr Pia Mukharzi",
+        "expertize": "Radiology & Imaging",
+        "email": "Piamukharzi@gmail.com",
+        "img": "https://i.ibb.co/6R2J3JG/images-3.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dr Ema Jansan",
+        "expertize": "PEDIATRIC & NEONATOLOGY",
+        "email": "endema2021@gmail.com",
+        "img": "https://i.ibb.co/F8rnzQC/images-5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dr Harry Pitter",
+        "expertize": "OBSTETRICS & GYNECOLOGY",
+        "email": "pitter@gmail.com",
+        "img": "https://i.ibb.co/pQsNFGd/unnamed.jpg"
+    }
+]
