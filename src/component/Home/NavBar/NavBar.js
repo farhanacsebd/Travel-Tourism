@@ -35,7 +35,7 @@ const NavBar = () => {
                 {user?.displayName || 'no user'}
               </Badge>
             </Nav.Link>
-            <img style={{ height: '40px', width: '40px', borderRadius: '40px' }} src={user.photoURL || 'https://thumbs.dreamstime.com/b/default-avatar-profile-icon-social-media-user-vector-default-avatar-profile-icon-social-media-user-vector-portrait-176194876.jpg'} alt="" />
+            <img style={{ height: '40px', width: '40px', borderRadius: '40px' }} src={user.photoURL || 'https://www.pinpng.com/pngs/m/302-3025490_empty-profile-picture-profile-anonymous-hd-png-download.png'} alt="" />
           </Nav>
         </Navbar.Collapse>
       </Container>
