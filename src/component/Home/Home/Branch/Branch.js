@@ -8,7 +8,7 @@ const Branch = () => {
                 <h1 style={{ fontSize: "3rem" }} className="text-center ">Get inspiration for your next trip</h1>
                 <h5>Explore more destinations</h5><p className="text-center pb-5">Find things to do in cities around the world
                 </p>
-                <div className="row">
+                <div className="row g-4">
                     <div className="col-12 col-md-6">
                         <img src="https://images.unsplash.com/photo-1569949380643-6e746ecaa3bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="" className="w-100" />
                     </div>
@@ -49,7 +49,7 @@ const Branch = () => {
                 </Row>
             </Container>
             <Container>
-                <div className="row">
+                <div className="row g-4">
                     <div className="col-12 col-md-6">
                         <img src="https://cdn.wallpapersafari.com/78/94/uqRYxZ.jpg" alt="" className="w-100" />
                     </div>

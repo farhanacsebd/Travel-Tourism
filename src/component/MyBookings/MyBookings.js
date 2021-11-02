@@ -16,7 +16,7 @@ const MyBookings = () => {
 
     return (
         <div id="users">
-            <h2 className="mt-5 text-info">Manage All Orders</h2>
+            <h2 className="mt-5">Manage All Orders</h2>
 
             <div className="row">
                 {

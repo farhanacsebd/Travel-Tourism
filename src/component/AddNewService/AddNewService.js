@@ -20,15 +20,17 @@ const AddNewService = () => {
     }
 
     return (
-        <div className="add-service">
-            <h2>Please Add a Service</h2>
+        <div className="add-service m-5">
+            <h2 className="pb-3">Please Add a Service</h2>
+
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input {...register("name", { required: true, maxLength: 120 })} placeholder="Name" />
                 <textarea {...register("description")} placeholder="Description" />
                 <input type="number" {...register("price")} placeholder="price" />
                 <input {...register("img")} placeholder="image url" />
-                <input type="submit" />
+                <input className="bg-dark p-1 fw-bold text-white" type="submit" />
             </form>
+
         </div>
     );
 };

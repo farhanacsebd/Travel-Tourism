@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Col, Container, Row, Spinner } from 'react-bootstrap';
+import { Container, Row, Spinner } from 'react-bootstrap';
 import Travel from '../Travel/Travel';
 
 const TravelServices = () => {
@@ -12,19 +12,27 @@ const TravelServices = () => {
         }, [])
         return (
             <div className="py-5">
-                <Container>
-                    <h1 style={{ fontSize: "3rem" }} className="text-center pb-3">Most Provided Services</h1>
 
-                    {
-                        travels.length ? <Row xs={1} md={3} className="g-4">
-                            {
-                                travels.map(travel => <Travel key={travel.id} travel={travel}></Travel>)
-                            }
-                        </Row> : <Spinner animation="border" role="status">
+
+                {
+                    travels.length ?
+                        <Container>
+                            <h1 style={{ fontSize: "3rem" }} className="text-center pb-3">Most Provided Services</h1>
+
+                            <Row xs={1} md={3} className="g-4">
+                                {
+                                    travels.map(travel => <Travel key={travel.id} travel={travel}></Travel>)
+                                }
+                            </Row>
+                        </Container>
+
+                        : <Spinner animation="border" role="status">
                             <span className="visually-hidden">Loading...</span>
                         </Spinner>
-                    }
-                </Container>
+
+
+                }
+
             </div>
         );
     };

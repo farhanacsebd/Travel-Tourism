@@ -9,8 +9,8 @@ const Login = () => {
     return (
         <Container>
             <div className="">
-                <div className="py-5 text-center">
-                    <div>
+                <div className="py-5">
+                    <div className="bg-secondary rounded w-25 mx-auto">
                         <Button onClick={handleGoogleSign} className="btn btn-primary m-5" variant="warning" type="button">
                             Sign In Google
                         </Button>
