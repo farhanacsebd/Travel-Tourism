@@ -12,6 +12,7 @@ import Home from './component/Home/Home/Home';
 import NavBar from './component/Home/NavBar/NavBar';
 import Login from './component/Login/Login';
 import MyBookings from './component/MyBookings/MyBookings';
+import MyOrders from './component/MyOrders/MyOrders';
 import Notfound from './component/Notfound/Notfound';
 import PrivetRoute from './component/PrivetRoute/PrivetRoute';
 import Services from './component/Services/services';
@@ -49,6 +50,9 @@ function App() {
             </Route>
             <Route path="/MyBookings">
               <MyBookings />
+            </Route>
+            <Route path="/MyOrders">
+              <MyOrders />
             </Route>
 
             <Route path="/about">

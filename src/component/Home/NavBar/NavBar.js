@@ -24,7 +24,9 @@ const NavBar = () => {
 
             {
               user.email ? <>
-                <Nav.Link as={Link} to="/MyBookings">MyBookings</Nav.Link>
+                <Nav.Link as={Link} to="/MyOrders">MyOrders</Nav.Link>
+                <Nav.Link as={Link} to="/MyBookings">Manage All orders</Nav.Link>
+
                 <Nav.Link as={Link} to="/addNewService">Add NewService</Nav.Link>
                 <Nav.Link as={Link} onClick={signOutt} to="/log">Log out</Nav.Link>
               </> : <Nav.Link as={Link} to="/log">Log in</Nav.Link>
