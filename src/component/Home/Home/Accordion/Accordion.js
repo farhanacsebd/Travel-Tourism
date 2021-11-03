@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 const Accordion = () => {
     return (
         <div>
-            <Container className=" pb-5">
+            <Container className="pt-5 pb-5">
                 <h1 style={{ fontSize: "3rem" }} className=" pb-5 text-center ">Frequently Asked Question</h1>
                 <div className="row">
                     <div className="col-12 col-md-6">

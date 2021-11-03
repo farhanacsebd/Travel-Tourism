@@ -48,7 +48,7 @@ const MyOrders = () => {
                             <p>{user.name}</p>
                             <p>{user.email}</p>
                             <p>{user.address}</p>
-                            <button className="btn btn-success text-white" onClick={() => handleDelete(user._id)}>Delete</button>
+                            <button className="btn btn-warning text-white" onClick={() => handleDelete(user._id)}>Delete</button>
                         </div>
                     </div>)
                 }

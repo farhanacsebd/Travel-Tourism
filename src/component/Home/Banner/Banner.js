@@ -11,35 +11,35 @@ const Banner = () => {
     <>
       <Carousel>
         <Carousel.Item>
-          <img style={{ height: "300px" }}
+          <img style={{ height: "400px" }}
             className="d-block w-100"
             src={banner1}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
-          <img style={{ height: "300px" }}
+          <img style={{ height: "400px" }}
             className="d-block w-100"
             src={banner2}
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
-          <img style={{ height: "300px" }}
+          <img style={{ height: "400px" }}
             className="d-block w-100"
             src={banner3}
             alt="Third slide"
           />
         </Carousel.Item>
         <Carousel.Item>
-          <img style={{ height: "300px" }}
+          <img style={{ height: "400px" }}
             className="d-block w-100"
             src={banner4}
             alt="Third slide"
           />
         </Carousel.Item>
         <Carousel.Item>
-          <img style={{ height: "300px" }}
+          <img style={{ height: "400px" }}
             className="d-block w-100"
             src={banner5}
             alt="Third slide"
