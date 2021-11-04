@@ -67,8 +67,8 @@ const MyBookings = () => {
 
 
     return (
-        <div id="users" className="container mb-3">
-            <h2 className="mt-5 p-2">Manage All Orders</h2>
+        <div id="users" className="container mb-5">
+            <h2 className="mt-5 p-2 fw-bold">Manage All Orders</h2>
 
             <div className="row">
 

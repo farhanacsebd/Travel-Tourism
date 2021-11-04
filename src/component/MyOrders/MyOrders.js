@@ -39,16 +39,16 @@ const MyOrders = () => {
 
     }
     return (
-        <div id="users">
-            <h2 className="mt-5 p-3">My orders</h2>
-            <div className="row">
+        <div className="container mb-5" id="users">
+            <h2 className="mt-5 p-4 fw-bold">My Orders</h2>
+            <div className="row g-5">
                 {
                     users.map(user => <div className="col-md-4">
-                        <div className="p-3 m-2 shadow-lg rounded border border-success" style={{ width: "21rem", backgroundColor: "lightcyan" }}>
-                            <p>{user.name}</p>
-                            <p>{user.email}</p>
-                            <p>{user.address}</p>
-                            <p>{user.date}</p>
+                        <div className="p-3 m-2 shadow-lg rounded border-success" style={{ width: "21rem" }}>
+                            <p className="fw-bold" >Event Name : {user.address}</p>
+                            <p><small>{user.name}</small></p>
+                            <p><small>{user.email}</small></p>
+                            <p className="fw-bold">Date : {user.date}</p>
                             <button className="btn btn-danger fw-bold text-dark me-2" onClick={() => handleDelete(user._id)}>Cancel</button>
                             <button className="btn btn-warning fw-bold text-dark">{user.status}</button>
                         </div>

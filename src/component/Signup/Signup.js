@@ -23,7 +23,7 @@ const Signup = () => {
         <Container>
             <div className="w-50 mx-auto">
 
-                <div className="py-5 text-center">
+                <div className=" py-5 text-center">
                     <div>
 
                         <Button onClick={handleAndRedirect} className=" mx-3" variant="warning m-5" type="button">
