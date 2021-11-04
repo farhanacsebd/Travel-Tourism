@@ -4,7 +4,7 @@ import { useHistory } from 'react-router';
 
 
 const Travel = ({ travel }) => {
-    const { name, img, _id, description } = travel
+    const { address, img, _id, description } = travel
 
     const history = useHistory()
     const viewDetails = () => {
@@ -16,7 +16,7 @@ const Travel = ({ travel }) => {
             <Card style={{ margin: '3px' }}>
                 <Card.Img style={{ height: '15rem' }} variant="top" src={img} />
                 <Card.Body className="cBody">
-                    <Card.Title>{name}</Card.Title>
+                    <Card.Title>{address}</Card.Title>
                     <Card.Text>{description.slice(0, 80)}</Card.Text>
                     <Button onClick={viewDetails} className="">More Details</Button>
                 </Card.Body>

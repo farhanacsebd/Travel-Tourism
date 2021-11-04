@@ -23,8 +23,10 @@ const Details = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
+        const status = "Pending";
+        const bookingItem = { ...data, status };
 
-        axios.post('https://immense-depths-46109.herokuapp.com/users', data)
+        axios.post('https://immense-depths-46109.herokuapp.com/users', bookingItem)
             .then(res => {
                 // console.log(res);
                 if (res.data.insertedId) {
@@ -42,7 +44,7 @@ const Details = () => {
 
                 <div className="col-md-5">
                     <img src={docDetails.img} alt="" className="w-100" />
-                    <div><h3>DEPARTMENT:{docDetails?.name}</h3>
+                    <div><h3>EventName:{docDetails?.address}</h3>
                         <p>Description:{docDetails?.description}</p>
                         <p>Price:{docDetails?.price}</p>
                     </div>
@@ -53,7 +55,7 @@ const Details = () => {
 
                         <input {...register("name", { required: true, maxLength: 120 })} defaultValue={user.displayName} />
                         <input {...register("email", { required: true, maxLength: 120 })} defaultValue={user.email} />
-                        <textarea {...register("address")} placeholder="Address" />
+                        <textarea {...register("address")} placeholder="Address" defaultValue={docDetails?.address} />
                         <input type="date" {...register("date")} placeholder="Date" />
                         <input type="number" {...register("contact-number")} placeholder="Contact-Number" />
 

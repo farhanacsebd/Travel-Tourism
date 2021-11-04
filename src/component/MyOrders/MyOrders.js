@@ -50,7 +50,7 @@ const MyOrders = () => {
                             <p>{user.address}</p>
                             <p>{user.date}</p>
                             <button className="btn btn-danger fw-bold text-dark me-2" onClick={() => handleDelete(user._id)}>Cancel</button>
-                            <button className="btn btn-warning fw-bold text-dark">Pending...</button>
+                            <button className="btn btn-warning fw-bold text-dark">{user.status}</button>
                         </div>
                     </div>)
                 }
