@@ -54,6 +54,7 @@ const Details = () => {
                         <input {...register("name", { required: true, maxLength: 120 })} defaultValue={user.displayName} />
                         <input {...register("email", { required: true, maxLength: 120 })} defaultValue={user.email} />
                         <textarea {...register("address")} placeholder="Address" />
+                        <input type="date" {...register("date")} placeholder="Date" />
                         <input type="number" {...register("contact-number")} placeholder="Contact-Number" />
 
                         <input type="submit" />
