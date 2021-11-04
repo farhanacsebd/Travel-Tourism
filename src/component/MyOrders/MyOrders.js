@@ -40,7 +40,7 @@ const MyOrders = () => {
     }
     return (
         <div id="users">
-            <h2 className="mt-5">My orders</h2>
+            <h2 className="mt-5 p-3">My orders</h2>
             <div className="row">
                 {
                     users.map(user => <div className="col-md-4">
@@ -48,7 +48,8 @@ const MyOrders = () => {
                             <p>{user.name}</p>
                             <p>{user.email}</p>
                             <p>{user.address}</p>
-                            <button className="btn btn-warning fw-bold text-danger" onClick={() => handleDelete(user._id)}>Cancel</button>
+                            <button className="btn btn-danger fw-bold text-dark me-2" onClick={() => handleDelete(user._id)}>Cancel</button>
+                            <button className="btn btn-warning fw-bold text-dark">Pending...</button>
                         </div>
                     </div>)
                 }
