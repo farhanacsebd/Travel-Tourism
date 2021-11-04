@@ -23,6 +23,10 @@ const Details = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
+        if (!data.address) {
+            data.address = docDetails?.address;
+        }
+
         const status = "Pending";
         const bookingItem = { ...data, status };
 
