@@ -4,17 +4,13 @@ import { Table } from 'react-bootstrap';
 import useAuth from '../../Hooks/useAuth';
 
 const MyBookings = () => {
-    const { user } = useAuth()
     const [users, setUsers] = useState([])
     const [approved, setApproved] = useState(false);
 
     useEffect(() => {
         fetch('https://immense-depths-46109.herokuapp.com/users')
             .then(res => res.json())
-            .then(data => {
-                const value = data.filter(db => db.email === user.email)
-                setUsers(value);
-            });
+            .then(data => setUsers(data))
 
     }, [approved])
 
