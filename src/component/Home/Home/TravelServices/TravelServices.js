@@ -21,7 +21,7 @@ const TravelServices = () => {
 
                             <Row xs={1} md={3} className="g-4">
                                 {
-                                    travels.map(travel => <Travel key={travel.id} travel={travel}></Travel>)
+                                    travels.map(travel => <Travel key={travel._id} travel={travel}></Travel>)
                                 }
                             </Row>
                         </Container>
@@ -36,12 +36,6 @@ const TravelServices = () => {
             </div>
         );
     };
-
-    return (
-        <div>
-
-        </div>
-    );
 };
 
 export default TravelServices;
