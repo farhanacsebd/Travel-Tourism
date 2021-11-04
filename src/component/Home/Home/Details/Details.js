@@ -45,7 +45,7 @@ const Details = () => {
                     <div><h3>DEPARTMENT:{docDetails?.name}</h3>
                         <p>Description:{docDetails?.description}</p>
                         <p>Price:{docDetails?.price}</p>
-                        <button className="btn btn-primary">Buy Now</button></div>
+                    </div>
                 </div>
 
                 <div className="col-md-7 text-start add-service">
