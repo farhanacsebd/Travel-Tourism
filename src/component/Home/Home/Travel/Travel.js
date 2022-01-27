@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
+import './Travel.css'
 
 
 const Travel = ({ travel }) => {
@@ -13,7 +14,7 @@ const Travel = ({ travel }) => {
 
     return (
         <Col>
-            <Card style={{ margin: '3px' }}>
+            <Card className='service-cart' style={{ margin: '3px' }}>
                 <Card.Img style={{ height: '15rem' }} variant="top" src={img} />
                 <Card.Body className="cBody">
                     <Card.Title>{address}</Card.Title>

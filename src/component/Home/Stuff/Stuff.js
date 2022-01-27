@@ -5,7 +5,7 @@ import './Stuff.css'
 const Stuff = () => {
     return (
         <div className="py-5">
-            <h3 style={{ fontSize: "3rem" }} className="fw-blod">Gallery</h3>
+            <h3 style={{ fontSize: "3rem" }} className="fw-blod pb-4 pt-5">Gallery</h3>
             <Container>
                 <Row xs={1} md={3} className="g-1 pb-5">
                     {/* dynamically load card start  */}
