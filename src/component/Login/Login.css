@@ -1,0 +1,11 @@
+.picture{
+    background-image: url(https://i2.wp.com/media.giphy.com/media/xUA7b4arnbo3THfzi0/giphy.gif);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100% 100%;
+/* background-image: url('https://i.pinimg.com/originals/ac/5f/50/ac5f50e42bdc044b94853257487fc516.gif');
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%; */
+    
+}

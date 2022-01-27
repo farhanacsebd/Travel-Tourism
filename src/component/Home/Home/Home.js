@@ -24,8 +24,8 @@ const Home = () => {
                 travels.length ? <div>
                     <Banner />
                     <Covid></Covid>
-                    <TravelServices />
                     <Branch />
+                    <TravelServices />
                     <Accordion></Accordion>
                     <Stuff></Stuff>
                 </div> : <Spinner animation="border" role="status">
