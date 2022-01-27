@@ -17,7 +17,7 @@ const TravelServices = () => {
                 {
                     travels.length ?
                         <Container>
-                            <h1 style={{ fontSize: "3rem" }} className="text-center pb-3">Most Provided Services</h1>
+                            <h1 style={{ fontSize: "3rem" }} className="text-center pt-5 pb-5 fw-bold">Most Provided Services</h1>
 
                             <Row xs={1} md={3} className="g-4">
                                 {

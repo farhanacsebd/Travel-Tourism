@@ -5,8 +5,8 @@ const Branch = () => {
     return (
         <div className="py-5">
             <Container>
-                <h1 style={{ fontSize: "3rem" }} className="text-center ">Get inspiration for your next trip</h1>
-                <h5>Explore more destinations</h5><p className="text-center pb-5">Find things to do in cities around the world
+                <h1 style={{ fontSize: "3rem" }} className="text-center fw-bold">Get inspiration for your next trip</h1>
+                <h5 className='fw-bold'>Explore more destinations</h5><p className="text-center fw-bold pb-5">Find things to do in cities around the world
                 </p>
                 <div className="row g-4">
                     <div className="col-12 col-md-6">
