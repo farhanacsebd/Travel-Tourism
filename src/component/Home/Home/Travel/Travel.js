@@ -19,7 +19,12 @@ const Travel = ({ travel }) => {
                 <Card.Body className="cBody">
                     <Card.Title>{address}</Card.Title>
                     <Card.Text>{description.slice(0, 80)}</Card.Text>
-                    <Button onClick={viewDetails} className="">More Details</Button>
+                    <div className="d-flex align-items-center justify-content-between">
+                        <Button onClick={viewDetails} className="">More Details</Button>
+                        <div>
+                            <span><i class="fas fa-heart mx-2 fs-3 text-danger"></i><i class="fas fa-thumbs-up mx-2 fs-3 text-primary"></i><i class="fas fa-thumbs-down mx-2 fs-3 text-dark"></i></span>
+                        </div>
+                    </div>
                 </Card.Body>
             </Card>
 

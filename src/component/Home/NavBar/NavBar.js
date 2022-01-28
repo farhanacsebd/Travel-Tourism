@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#"><h4 className="ps-1">Travel & Tourism</h4></Navbar.Brand>
+        <Navbar.Brand href="#"><h2 className="ps-1">Travel & Tourism</h2></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
